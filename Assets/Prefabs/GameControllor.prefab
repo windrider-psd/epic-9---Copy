@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3464527296497954007
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3464527296497954004}
+  - component: {fileID: 3464527296497954005}
+  - component: {fileID: 1393852037}
+  - component: {fileID: 1014841233}
+  - component: {fileID: 1014841234}
+  m_Layer: 0
+  m_Name: GameControllor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3464527296497954004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3464527296497954007}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.5448935, y: 1.6006461, z: -9.96365}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3464527296497954005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3464527296497954007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e26c0ce3ecdae14a88cfc818b176c8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  session: {fileID: 0}
+  sessionPrefab: {fileID: 1329971310902630707, guid: e762006c468939940a4e15c252006f47, type: 3}
+--- !u!114 &1393852037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3464527296497954007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db402c3745690bf49a09ca285057affd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heroImages:
+  - key: 0
+    value: {fileID: 21300000, guid: 6f5af427291986847a5066ca24c88e11, type: 3}
+  - key: 1
+    value: {fileID: 21300000, guid: edb59206d70833042b2d55ed0d36085a, type: 3}
+  heroElements:
+  - key: 0
+    value: {fileID: 21300000, guid: 368b99b05d570ba4599d2dfb23c87bda, type: 3}
+  - key: 1
+    value: {fileID: 21300000, guid: e907b5b0fc396fe4a9814015d62e5568, type: 3}
+  - key: 4
+    value: {fileID: 21300000, guid: 2565c4dfa20be1840967e1ffdd7ae5c5, type: 3}
+  - key: 3
+    value: {fileID: 21300000, guid: 53aea76a892c24e4a8dec4eb09bcc9f6, type: 3}
+  - key: 2
+    value: {fileID: 21300000, guid: fb0e1ef909132df45b4751617d11ab3a, type: 3}
+--- !u!114 &1014841233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3464527296497954007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74df54c4f0f7bcd4d8f33ee0d7fb3e76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heroElements:
+  - key: 0
+    value: {fileID: 21300000, guid: 368b99b05d570ba4599d2dfb23c87bda, type: 3}
+  - key: 1
+    value: {fileID: 21300000, guid: e907b5b0fc396fe4a9814015d62e5568, type: 3}
+  - key: 4
+    value: {fileID: 21300000, guid: 2565c4dfa20be1840967e1ffdd7ae5c5, type: 3}
+  - key: 3
+    value: {fileID: 21300000, guid: 53aea76a892c24e4a8dec4eb09bcc9f6, type: 3}
+  - key: 2
+    value: {fileID: 21300000, guid: fb0e1ef909132df45b4751617d11ab3a, type: 3}
+  portraitImageData:
+  - key: 0
+    value:
+      leftTop: {x: 10, y: 13.8}
+      rightBottom: {x: 0, y: -13.8}
+      scale: {x: 2, y: 2, z: 1}
+      sprite: {fileID: 21300000, guid: 6f5af427291986847a5066ca24c88e11, type: 3}
+  - key: 1
+    value:
+      leftTop: {x: 5, y: 19.2}
+      rightBottom: {x: 5, y: -19.2}
+      scale: {x: 2, y: 2, z: 1}
+      sprite: {fileID: 21300000, guid: edb59206d70833042b2d55ed0d36085a, type: 3}
+  heroShowcaseImage:
+  - key: 0
+    value:
+      controller: {fileID: 9100000, guid: e037bfa3b70122a4fbb47b06cd63b0ba, type: 2}
+      size: {x: 1.5, y: 3, z: 1}
+  - key: 1
+    value:
+      controller: {fileID: 9100000, guid: e0149b4a3763da94e86c50ff1a9c39f4, type: 2}
+      size: {x: 1.5, y: 3, z: 1}
+--- !u!114 &1014841234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3464527296497954007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8973ed78cd618449898666c81bf60c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  miniHeroCardSelectorPrefab: {fileID: 4859558376371368027, guid: b91189391834cbf45bb346a56f087c4a, type: 3}
+  overflowPanelPrefab: {fileID: 8939348064380974746, guid: 824435a02c0ab2044807112d76d48c3c, type: 3}
